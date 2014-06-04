@@ -52,4 +52,3 @@ Replace `<h1>Apache Cordova</h1>` with `<h1>PhoneGap</h1>`.
 
 [phonegap-cli-url]: http://github.com/mwbrooks/phonegap-cli
 [cordova-app]: http://github.com/apache/cordova-app-hello-world
-
