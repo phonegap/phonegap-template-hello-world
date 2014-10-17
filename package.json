@@ -1,0 +1,19 @@
+{
+  "name": "phonegap-app-hello-world",
+  "version": "1.0.0",
+  "description": "> A Hello World application built with PhoneGap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phonegap/phonegap-app-hello-world.git"
+  },
+  "author": "",
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/phonegap/phonegap-app-hello-world/issues"
+  },
+  "homepage": "https://github.com/phonegap/phonegap-app-hello-world"
+}
