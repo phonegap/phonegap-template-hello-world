@@ -16,6 +16,9 @@
         PhoneGap Team
     </author>
 
+    <!-- Define the main entry-point to the application -->
+    <content src="index.html" />
+
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
