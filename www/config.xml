@@ -38,7 +38,6 @@
     <preference name="exit-on-suspend"            value="false" />          <!-- ios: if set to true, app will terminate when home button is pressed -->
     <preference name="show-splash-screen-spinner" value="true" />           <!-- ios: if set to false, the spinner won't appear on the splash screen during app loading -->
     <preference name="auto-hide-splash-screen"    value="true" />           <!-- ios: if set to false, the splash screen must be hidden using a JavaScript API -->
-    <preference name="disable-cursor"             value="false" />          <!-- blackberry: prevents a mouse-icon/cursor from being displayed on the app -->
     <preference name="android-minSdkVersion"      value="14" />             <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
     <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
     <!--
@@ -69,55 +68,75 @@
     <plugin name="cordova-plugin-vibration" source="npm"/>
 
     <!-- Third party plugins -->
-    <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
-    <!--
-        <plugin name="com.phonegap.plugins.barcodescanner" />
-    -->
-
+    
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
-    <icon src="www/res/icon/android/icon-36-ldpi.png"      platform="android"  qualifier="ldpi" />
-    <icon src="www/res/icon/android/icon-48-mdpi.png"      platform="android"  qualifier="mdpi" />
-    <icon src="www/res/icon/android/icon-72-hdpi.png"      platform="android"  qualifier="hdpi" />
-    <icon src="www/res/icon/android/icon-96-xhdpi.png"     platform="android"  qualifier="xhdpi" />
-    <icon src="www/res/icon/android/icon-144-xxhdpi.png"   platform="android"  qualifier="xxhdpi" />
-    <icon src="www/res/icon/android/icon-192-xxxhdpi.png"  platform="android"  qualifier="xxxhdpi" />
-    <icon src="www/res/icon/ios/icon-57.png"               platform="ios"       width="57" height="57" />
-    <icon src="www/res/icon/ios/icon-57@2x.png"            platform="ios"       width="114" height="114" />
-    <icon src="www/res/icon/ios/icon-72.png"               platform="ios"       width="72" height="72" />
-    <icon src="www/res/icon/ios/icon-72@2x.png"            platform="ios"       width="144" height="144" />
+    <icon src="www/res/icon/android/drawable-ldpi-icon"        platform="android"  qualifier="ldpi" />
+    <icon src="www/res/icon/android/drawable-mdpi-icon.png"    platform="android"  qualifier="mdpi" />
+    <icon src="www/res/icon/android/drawable-hdpi-icon"        platform="android"  qualifier="hdpi" />
+    <icon src="www/res/icon/android/drawable-xhdpi-icon.png"   platform="android"  qualifier="xhdpi" />
+    <icon src="www/res/icon/android/drawable-xxhdpi-icon.png"  platform="android"  qualifier="xxhdpi" />
+    <icon src="www/res/icon/android/drawable-xhdpi-icon.png"   platform="android"  qualifier="xxxhdpi" />
+    
+    <icon src="www/res/icon/ios/icon.png"            platform="ios" width="57" height="57"/>
+    <icon src="www/res/icon/ios/icon@2x.png"         platform="ios" width="114" height="114"/>
+    <icon src="www/res/icon/ios/icon-40.png"         platform="ios" width="40" height="40"/>
+    <icon src="www/res/icon/ios/icon-40@2x.png"      platform="ios" width="80" height="80"/>
+    <icon src="www/res/icon/ios/icon-50.png"         platform="ios" width="50" height="50"/>
+    <icon src="www/res/icon/ios/icon-50@2x.png"      platform="ios" width="100" height="100"/>
+    <icon src="www/res/icon/ios/icon-60.png"         platform="ios" width="60" height="60"/>
+    <icon src="www/res/icon/ios/icon-60@2x.png"      platform="ios" width="120" height="120"/>
+    <icon src="www/res/icon/ios/icon-60@3x.png"      platform="ios" width="180" height="180"/>
+    <icon src="www/res/icon/ios/icon-72.png"         platform="ios" width="72" height="72"/>
+    <icon src="www/res/icon/ios/icon-72@2x.png"      platform="ios" width="144" height="144"/>
+    <icon src="www/res/icon/ios/icon-76.png"         platform="ios" width="76" height="76"/>
+    <icon src="www/res/icon/ios/icon-76@2x.png"      platform="ios" width="152" height="152"/>
+    <icon src="www/res/icon/ios/icon-small.png"      platform="ios" width="29" height="29"/>
+    <icon src="www/res/icon/ios/icon-small@2x.png"   platform="ios" width="58" height="58"/>
+    <icon src="www/res/icon/ios/icon-small@3x.png"   platform="ios" width="87" height="87"/>
 
-    <icon src="www/res/icon/ios/icon-40.png"               platform="ios"       width="40"  height="40" />
-    <icon src="www/res/icon/ios/icon-40@2x.png"            platform="ios"       width="80" height="80" />
-    <icon src="www/res/icon/ios/icon-50.png"               platform="ios"       width="50"  height="50" />
-    <icon src="www/res/icon/ios/icon-50@2x.png"            platform="ios"       width="100" height="100" />
-    <icon src="www/res/icon/ios/icon-60.png"               platform="ios"       width="60" height="60" />
-    <icon src="www/res/icon/ios/icon-60@2x.png"            platform="ios"       width="120" height="120" />
-    <icon src="www/res/icon/ios/icon-60@3x.png"            platform="ios"       width="180"  height="180" />
-    <icon src="www/res/icon/ios/icon-76.png"               platform="ios"       width="76" height="76" />
-    <icon src="www/res/icon/ios/icon-76@2x.png"            platform="ios"       width="152" height="152" />
-    <icon src="www/res/icon/ios/icon-small.png"            platform="ios"       width="29" height="29" />
-    <icon src="www/res/icon/ios/icon-small@2x.png"         platform="ios"       width="58" height="58" />
-    <icon src="www/res/icon/ios/icon-small@3x.png"         platform="ios"       width="87" height="87" />
-
-
-    <icon src="www/res/icon/windows-phone/icon-48.png"     platform="winphone" />
-    <icon src="www/res/icon/windows-phone/icon-173-tile.png" platform="winphone"   gap:role="background" />
+    <!--Windows Phone 8-->
+    <icon src="www/res/icon/windows-phone/icon-48.png"       platform="winphone" />
+    <icon src="www/res/icon/windows-phone/icon-173-tile.png" platform="winphone"   role="background" />
+    <!--Windows Phone 8.1+-->
+    <icon src="www/res/icon/windows-phone/Square44x44Logo.scale-100.png"    platform="winphone" width="44" height="44"/>
+    <icon src="www/res/icon/windows-phone/Square44x44Logo.scale-240.png"    platform="winphone" width="106" height="106" />
+    <icon src="www/res/icon/windows-phone/Square150x150Logo.scale-100.png"  platform="winphone" width="150" height="150" />
+    <icon src="www/res/icon/windows-phone/Square150x150Logo.scale-240.png"  platform="winphone" width="360" height="360"/>
+    <icon src="www/res/icon/windows-phone/Square71x71Logo.scale-100.png"    platform="winphone" width="71" height="71"/>
+    <icon src="www/res/icon/windows-phone/Square71x71Logo.scale-240.png"    platform="winphone" width="170" height="170" />
+    <icon src="www/res/icon/windows-phone/Wide310x150Logo.scale-100.png"    platform="winphone" width="310" height="150"/>
+    <icon src="www/res/icon/windows-phone/Wide310x150Logo.scale-240.png"    platform="winphone" width="744" height="360"/>
 
     <!-- Define app splash screen for each platform. -->
-    <splash src="www/res/screen/android/screen-ldpi-portrait.png"       platform="android" qualifier="port-ldpi" />
-    <splash src="www/res/screen/android/screen-mdpi-portrait.png"       platform="android" qualifier="port-mdpi" />
-    <splash src="www/res/screen/android/screen-hdpi-portrait.png"       platform="android" qualifier="port-hdpi" />
-    <splash src="www/res/screen/android/screen-xhdpi-portrait.png"      platform="android" qualifier="port-xhdpi" />
-    <splash src="www/res/screen/android/screen-xxhdpi-portrait.png"     platform="android" qualifier="port-xxhdpi" />
-    <splash src="www/res/screen/android/screen-xxxhdpi-portrait.png"    platform="android" qualifier="port-xxxhdpi" />
-    <splash src="www/res/screen/ios/screen-iphone-portrait.png"         platform="ios"     width="320" height="480" />
-    <splash src="www/res/screen/ios/screen-iphone-portrait-2x.png"      platform="ios"     width="640" height="960" />
-    <splash src="www/res/screen/ios/screen-iphone-portrait-568h-2x.png" platform="ios"     width="640" height="1136" />
-    <splash src="www/res/screen/ios/screen-ipad-portrait.png"           platform="ios"     width="768" height="1024" />
-    <splash src="www/res/screen/ios/screen-ipad-landscape.png"          platform="ios"     width="1024" height="768" />
-    <splash src="www/res/screen/windows-phone/screen-portrait.jpg"      platform="winphone" />
-
+    <splash src="www/res/screen/android/drawable-land-ldpi-screen.png"    platform="android" qualifier="land-ldpi"/>
+    <splash src="www/res/screen/android/drawable-land-mdpi-screen.png"    platform="android" qualifier="land-mdpi"/>
+    <splash src="www/res/screen/android/drawable-land-hdpi-screen.png"    platform="android" qualifier="land-hdpi"/>
+    <splash src="www/res/screen/android/drawable-land-xhdpi-screen.png"   platform="android" qualifier="land-xhdpi"/>
+    <splash src="www/res/screen/android/drawable-land-xxhdpi-screen.png"  platform="android" qualifier="land-xxhdpi"/>
+    <splash src="www/res/screen/android/drawable-land-xxxhdpi-screen.png" platform="android" qualifier="land-xxxhdpi"/>
+    <splash src="www/res/screen/android/drawable-port-ldpi-screen.png"    platform="android" qualifier="port-ldpi"/>
+    <splash src="www/res/screen/android/drawable-port-mdpi-screen.png"    platform="android" qualifier="port-mdpi"/>
+    <splash src="www/res/screen/android/drawable-port-hdpi-screen.png"    platform="android" qualifier="port-hdpi"/>
+    <splash src="www/res/screen/android/drawable-port-xhdpi-screen.png"   platform="android" qualifier="port-xhdpi"/>
+    <splash src="www/res/screen/android/drawable-port-xxhdpi-screen.png"  platform="android" qualifier="port-xxhdpi"/>
+    <splash src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" platform="android" qualifier="port-xxxhdpi"/>
+    
+    <splash src="www/res/screen/ios/Default-568h@2x~iphone.png"           platform="ios" width="640" height="1136"/>
+    <splash src="www/res/screen/ios/Default-667h.png"                     platform="ios" width="750" height="1334"/>
+    <splash src="www/res/screen/ios/Default-736h.png"                     platform="ios" width="1242" height="2208"/>
+    <splash src="www/res/screen/ios/Default-Landscape-736h.png"           platform="ios" width="2208" height="1242"/>
+    <splash src="www/res/screen/ios/Default-Landscape@2x~ipad.png"        platform="ios" width="2048" height="1536"/>
+    <splash src="www/res/screen/ios/Default-Landscape~ipad.png"           platform="ios" width="1024" height="768"/>
+    <splash src="www/res/screen/ios/Default-Portrait@2x~ipad.png"         platform="ios" width="1536" height="2048"/>
+    <splash src="www/res/screen/ios/Default-Portrait~ipad.png"            platform="ios" width="768" height="1024"/>
+    <splash src="www/res/screen/ios/Default@2x~iphone.png"                platform="ios" width="640" height="960"/>
+    <splash src="www/res/screen/ios/Default~iphone.png"                   platform="ios" width="320" height="480"/>
+    
+    <!--Windows Phone 8-->
+    <splash src="www/res/screen/windows-phone/screen-portrait.jpg"                platform="winphone" />
+    <!--Windows Phone 8.1+-->
+    <splash src="www/res/screen/windows-phone/SplashScreenPhone.scale-240.png"    platform="winphone" width="1152" height="1920" />
     <!--
         Define access to external domains.
 
@@ -148,6 +167,5 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-
 
 </widget>
