@@ -99,14 +99,19 @@
     <icon src="www/res/icon/windows-phone/icon-48.png"       platform="winphone" />
     <icon src="www/res/icon/windows-phone/icon-173-tile.png" platform="winphone"   role="background" />
     <!--Windows Phone 8.1+-->
-    <icon src="www/res/icon/windows-phone/Square44x44Logo.scale-100.png"    platform="winphone" width="44" height="44"/>
-    <icon src="www/res/icon/windows-phone/Square44x44Logo.scale-240.png"    platform="winphone" width="106" height="106" />
-    <icon src="www/res/icon/windows-phone/Square150x150Logo.scale-100.png"  platform="winphone" width="150" height="150" />
-    <icon src="www/res/icon/windows-phone/Square150x150Logo.scale-240.png"  platform="winphone" width="360" height="360"/>
-    <icon src="www/res/icon/windows-phone/Square71x71Logo.scale-100.png"    platform="winphone" width="71" height="71"/>
-    <icon src="www/res/icon/windows-phone/Square71x71Logo.scale-240.png"    platform="winphone" width="170" height="170" />
-    <icon src="www/res/icon/windows-phone/Wide310x150Logo.scale-100.png"    platform="winphone" width="310" height="150"/>
-    <icon src="www/res/icon/windows-phone/Wide310x150Logo.scale-240.png"    platform="winphone" width="744" height="360"/>
+    <icon src="www/res/icons/windows/Square71x71Logo.scale-100.png"    platform="winphone" width="71" height="71" />
+    <icon src="www/res/icons/windows/Square71x71Logo.scale-240.png"    platform="winphone" width="170" height="170" />
+    <icon src="www/res/icons/windows/Square150x150Logo.scale-100.png"  platform="winphone" width="150" height="150" />
+    <icon src="www/res/icons/windows/Square150x150Logo.scale-240.png"  platform="winphone" width="360" height="360" />
+    <icon src="www/res/icons/windows/Square44x44Logo.scale-100.png"    platform="winphone" width="44" height="44" />
+    <icon src="www/res/icons/windows/Square44x44Logo.scale-240.png"    platform="winphone" width="106" height="106" />
+    <icon src="www/res/icons/windows/StoreLogo.scale-100.png"          platform="winphone" width="70" height="70" />
+    <icon src="www/res/icons/windows/StoreLogo.scale-240.png"          platform="winphone" width="120" height="120" />
+    <icon src="www/res/icons/windows/Wide310x150Logo.scale-100.png"    platform="winphone" width="310" height="150" />
+    <icon src="www/res/icons/windows/Wide310x150Logo.scale-240.png"    platform="winphone" width="744" height="360" />
+    <icon src="www/res/icons/windows/BadgeLogo.scale-100.png"          platform="winphone" width="24" height="24" />
+    <icon src="www/res/icons/windows/BadgeLogo.scale-100.png"          platform="winphone" width="58" height="58" />
+    
 
     <!-- Define app splash screen for each platform. -->
     <splash src="www/res/screen/android/drawable-land-ldpi-screen.png"    platform="android" qualifier="land-ldpi"/>
