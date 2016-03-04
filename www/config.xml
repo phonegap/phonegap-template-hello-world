@@ -48,24 +48,24 @@
     <!-- Plugins -->
 
     <!-- Core plugins -->
-    <plugin name="cordova-plugin-battery-status" source="npm"/>
-    <plugin name="cordova-plugin-camera" source="npm"/>
-    <plugin name="cordova-plugin-media-capture" source="npm"/>
-    <plugin name="cordova-plugin-console" source="npm"/>
-    <plugin name="cordova-plugin-contacts" source="npm"/>
-    <plugin name="cordova-plugin-device" source="npm"/>
-    <plugin name="cordova-plugin-device-motion" source="npm"/>
-    <plugin name="cordova-plugin-device-orientation" source="npm"/>
-    <plugin name="cordova-plugin-dialogs" source="npm"/>
-    <plugin name="cordova-plugin-file" source="npm"/>
-    <plugin name="cordova-plugin-file-transfer" source="npm"/>
-    <plugin name="cordova-plugin-geolocation" source="npm"/>
-    <plugin name="cordova-plugin-globalization" source="npm"/>
-    <plugin name="cordova-plugin-inappbrowser" source="npm"/>
-    <plugin name="cordova-plugin-media" source="npm"/>
+    <plugin name="cordova-plugin-battery-status"      source="npm"/>
+    <plugin name="cordova-plugin-camera"              source="npm"/>
+    <plugin name="cordova-plugin-media-capture"       source="npm"/>
+    <plugin name="cordova-plugin-console"             source="npm"/>
+    <plugin name="cordova-plugin-contacts"            source="npm"/>
+    <plugin name="cordova-plugin-device"              source="npm"/>
+    <plugin name="cordova-plugin-device-motion"       source="npm"/>
+    <plugin name="cordova-plugin-device-orientation"  source="npm"/>
+    <plugin name="cordova-plugin-dialogs"             source="npm"/>
+    <plugin name="cordova-plugin-file"                source="npm"/>
+    <plugin name="cordova-plugin-file-transfer"       source="npm"/>
+    <plugin name="cordova-plugin-geolocation"         source="npm"/>
+    <plugin name="cordova-plugin-globalization"       source="npm"/>
+    <plugin name="cordova-plugin-inappbrowser"        source="npm"/>
+    <plugin name="cordova-plugin-media"               source="npm"/>
     <plugin name="cordova-plugin-network-information" source="npm"/>
-    <plugin name="cordova-plugin-splashscreen" source="npm"/>
-    <plugin name="cordova-plugin-vibration" source="npm"/>
+    <plugin name="cordova-plugin-splashscreen"        source="npm"/>
+    <plugin name="cordova-plugin-vibration"           source="npm"/>
 
     <!-- Third party plugins -->
     
@@ -96,8 +96,8 @@
     <icon src="www/res/icon/ios/icon-small@3x.png"   platform="ios" width="87" height="87"/>
 
     <!--Windows Phone 8-->
-    <icon src="www/res/icon/windows-phone/icon-48.png"       platform="winphone" />
-    <icon src="www/res/icon/windows-phone/icon-173-tile.png" platform="winphone"   role="background" />
+    <icon src="www/res/icon/windows-phone/icon-48.png"                 platform="winphone" />
+    <icon src="www/res/icon/windows-phone/icon-173-tile.png"           platform="winphone"   role="background" />
     <!--Windows Phone 8.1+-->
     <icon src="www/res/icons/windows/Square71x71Logo.scale-100.png"    platform="winphone" width="71" height="71" />
     <icon src="www/res/icons/windows/Square71x71Logo.scale-240.png"    platform="winphone" width="170" height="170" />
@@ -141,6 +141,9 @@
     <!--Windows Phone 8-->
     <splash src="www/res/screen/windows-phone/screen-portrait.jpg"                platform="winphone" />
     <!--Windows Phone 8.1+-->
+    
+    <splash src="www/res/screen/windows-phone/SplashScreenPhone.scale-100.png"    platform="winphone" width="480" height="800" />
+    <splash src="www/res/screen/windows-phone/SplashScreenPhone.scale-140.png"    platform="winphone" width="672" height="1120" />
     <splash src="www/res/screen/windows-phone/SplashScreenPhone.scale-240.png"    platform="winphone" width="1152" height="1920" />
     <!--
         Define access to external domains.
