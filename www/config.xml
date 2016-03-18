@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
-<widget xmlns     = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.helloworld"
-        version   = "1.0.0">
+  <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+  <widget xmlns="http://www.w3.org/ns/widgets" 
+          xmlns:gap="http://phonegap.com/ns/1.0" 
+          id="com.phonegap.helloworld" 
+          version="1.0.0">
 
     <name>Hello World</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+      Hello World sample application that responds to the deviceready event.
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
-        PhoneGap Team
+      PhoneGap Team
     </author>
 
     <!-- Define the main entry-point to the application -->
     <content src="index.html" />
 
     <!-- Customize your app and platform with the preference element. -->
-    <preference name="DisallowOverscroll" value="true"/>
-    <preference name="android-minSdkVersion"      value="14" />             <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+    <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
     <!--
         Define a specific version of PhoneGap to build into your app.
         <preference name="phonegap-version"       value="cli-6.0.0" />
@@ -30,105 +31,119 @@
     <!-- Plugins -->
 
     <!-- Core plugins -->
-    <plugin name="cordova-plugin-battery-status"      source="npm"/>
-    <plugin name="cordova-plugin-camera"              source="npm"/>
-    <plugin name="cordova-plugin-media-capture"       source="npm"/>
-    <plugin name="cordova-plugin-console"             source="npm"/>
-    <plugin name="cordova-plugin-contacts"            source="npm"/>
-    <plugin name="cordova-plugin-device"              source="npm"/>
-    <plugin name="cordova-plugin-device-motion"       source="npm"/>
-    <plugin name="cordova-plugin-device-orientation"  source="npm"/>
-    <plugin name="cordova-plugin-dialogs"             source="npm"/>
-    <plugin name="cordova-plugin-file"                source="npm"/>
-    <plugin name="cordova-plugin-file-transfer"       source="npm"/>
-    <plugin name="cordova-plugin-geolocation"         source="npm"/>
-    <plugin name="cordova-plugin-globalization"       source="npm"/>
-    <plugin name="cordova-plugin-inappbrowser"        source="npm"/>
-    <plugin name="cordova-plugin-media"               source="npm"/>
-    <plugin name="cordova-plugin-network-information" source="npm"/>
-    <plugin name="cordova-plugin-splashscreen"        source="npm"/>
-    <plugin name="cordova-plugin-statusbar"           source="npm"/>
-    <plugin name="cordova-plugin-vibration"           source="npm"/>
+    <plugin name="cordova-plugin-battery-status" source="npm" />
+    <plugin name="cordova-plugin-camera" source="npm" />
+    <plugin name="cordova-plugin-media-capture" source="npm" />
+    <plugin name="cordova-plugin-console" source="npm" />
+    <plugin name="cordova-plugin-contacts" source="npm" />
+    <plugin name="cordova-plugin-device" source="npm" />
+    <plugin name="cordova-plugin-device-motion" source="npm" />
+    <plugin name="cordova-plugin-device-orientation" source="npm" />
+    <plugin name="cordova-plugin-dialogs" source="npm" />
+    <plugin name="cordova-plugin-file" source="npm" />
+    <plugin name="cordova-plugin-file-transfer" source="npm" />
+    <plugin name="cordova-plugin-geolocation" source="npm" />
+    <plugin name="cordova-plugin-globalization" source="npm" />
+    <plugin name="cordova-plugin-inappbrowser" source="npm" />
+    <plugin name="cordova-plugin-media" source="npm" />
+    <plugin name="cordova-plugin-network-information" source="npm" />
+    <plugin name="cordova-plugin-splashscreen" source="npm" />
+    <plugin name="cordova-plugin-statusbar" source="npm" />
+    <plugin name="cordova-plugin-vibration" source="npm" />
 
     <!-- Third party plugins -->
-    
+
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
-    <icon src="www/res/icon/android/drawable-ldpi-icon"        platform="android"  qualifier="ldpi" />
-    <icon src="www/res/icon/android/drawable-mdpi-icon.png"    platform="android"  qualifier="mdpi" />
-    <icon src="www/res/icon/android/drawable-hdpi-icon"        platform="android"  qualifier="hdpi" />
-    <icon src="www/res/icon/android/drawable-xhdpi-icon.png"   platform="android"  qualifier="xhdpi" />
-    <icon src="www/res/icon/android/drawable-xxhdpi-icon.png"  platform="android"  qualifier="xxhdpi" />
-    <icon src="www/res/icon/android/drawable-xhdpi-icon.png"   platform="android"  qualifier="xxxhdpi" />
-    
-    <icon src="www/res/icon/ios/icon.png"            platform="ios" width="57" height="57"/>
-    <icon src="www/res/icon/ios/icon@2x.png"         platform="ios" width="114" height="114"/>
-    <icon src="www/res/icon/ios/icon-40.png"         platform="ios" width="40" height="40"/>
-    <icon src="www/res/icon/ios/icon-40@2x.png"      platform="ios" width="80" height="80"/>
-    <icon src="www/res/icon/ios/icon-50.png"         platform="ios" width="50" height="50"/>
-    <icon src="www/res/icon/ios/icon-50@2x.png"      platform="ios" width="100" height="100"/>
-    <icon src="www/res/icon/ios/icon-60.png"         platform="ios" width="60" height="60"/>
-    <icon src="www/res/icon/ios/icon-60@2x.png"      platform="ios" width="120" height="120"/>
-    <icon src="www/res/icon/ios/icon-60@3x.png"      platform="ios" width="180" height="180"/>
-    <icon src="www/res/icon/ios/icon-72.png"         platform="ios" width="72" height="72"/>
-    <icon src="www/res/icon/ios/icon-72@2x.png"      platform="ios" width="144" height="144"/>
-    <icon src="www/res/icon/ios/icon-76.png"         platform="ios" width="76" height="76"/>
-    <icon src="www/res/icon/ios/icon-76@2x.png"      platform="ios" width="152" height="152"/>
-    <icon src="www/res/icon/ios/icon-small.png"      platform="ios" width="29" height="29"/>
-    <icon src="www/res/icon/ios/icon-small@2x.png"   platform="ios" width="58" height="58"/>
-    <icon src="www/res/icon/ios/icon-small@3x.png"   platform="ios" width="87" height="87"/>
+    <platform name="android">
+      <icon src="www/res/icon/android/drawable-ldpi-icon" qualifier="ldpi" />
+      <icon src="www/res/icon/android/drawable-mdpi-icon.png" qualifier="mdpi" />
+      <icon src="www/res/icon/android/drawable-hdpi-icon" qualifier="hdpi" />
+      <icon src="www/res/icon/android/drawable-xhdpi-icon.png" qualifier="xhdpi" />
+      <icon src="www/res/icon/android/drawable-xxhdpi-icon.png" qualifier="xxhdpi" />
+      <icon src="www/res/icon/android/drawable-xhdpi-icon.png" qualifier="xxxhdpi" />
+    </platform>
+
+    <platform name="ios">
+      <icon src="www/res/icon/ios/icon.png" width="57" height="57" />
+      <icon src="www/res/icon/ios/icon@2x.png" width="114" height="114" />
+      <icon src="www/res/icon/ios/icon-40.png" width="40" height="40" />
+      <icon src="www/res/icon/ios/icon-40@2x.png" width="80" height="80" />
+      <icon src="www/res/icon/ios/icon-50.png" width="50" height="50" />
+      <icon src="www/res/icon/ios/icon-50@2x.png" width="100" height="100" />
+      <icon src="www/res/icon/ios/icon-60.png" width="60" height="60" />
+      <icon src="www/res/icon/ios/icon-60@2x.png" width="120" height="120" />
+      <icon src="www/res/icon/ios/icon-60@3x.png" width="180" height="180" />
+      <icon src="www/res/icon/ios/icon-72.png" width="72" height="72" />
+      <icon src="www/res/icon/ios/icon-72@2x.png" width="144" height="144" />
+      <icon src="www/res/icon/ios/icon-76.png" width="76" height="76" />
+      <icon src="www/res/icon/ios/icon-76@2x.png" width="152" height="152" />
+      <icon src="www/res/icon/ios/icon-small.png" width="29" height="29" />
+      <icon src="www/res/icon/ios/icon-small@2x.png" width="58" height="58" />
+      <icon src="www/res/icon/ios/icon-small@3x.png" width="87" height="87" />
+    </platform>
 
     <!--Windows Phone 8-->
-    <icon src="www/res/icon/windows-phone/icon-48.png"                 platform="winphone" />
-    <icon src="www/res/icon/windows-phone/icon-173-tile.png"           platform="winphone"   role="background" />
+    <platform name="win8">
+      <icon src="www/res/icon/windows-phone/icon-48.png" />
+      <icon src="www/res/icon/windows-phone/icon-173-tile.png" role="background" />
+    </platform>
+
     <!--Windows Phone 8.1+-->
-    <icon src="www/res/icons/windows/Square71x71Logo.scale-100.png"    platform="winphone" width="71" height="71" />
-    <icon src="www/res/icons/windows/Square71x71Logo.scale-240.png"    platform="winphone" width="170" height="170" />
-    <icon src="www/res/icons/windows/Square150x150Logo.scale-100.png"  platform="winphone" width="150" height="150" />
-    <icon src="www/res/icons/windows/Square150x150Logo.scale-240.png"  platform="winphone" width="360" height="360" />
-    <icon src="www/res/icons/windows/Square44x44Logo.scale-100.png"    platform="winphone" width="44" height="44" />
-    <icon src="www/res/icons/windows/Square44x44Logo.scale-240.png"    platform="winphone" width="106" height="106" />
-    <icon src="www/res/icons/windows/StoreLogo.scale-100.png"          platform="winphone" width="70" height="70" />
-    <icon src="www/res/icons/windows/StoreLogo.scale-240.png"          platform="winphone" width="120" height="120" />
-    <icon src="www/res/icons/windows/Wide310x150Logo.scale-100.png"    platform="winphone" width="310" height="150" />
-    <icon src="www/res/icons/windows/Wide310x150Logo.scale-240.png"    platform="winphone" width="744" height="360" />
-    <icon src="www/res/icons/windows/BadgeLogo.scale-100.png"          platform="winphone" width="24" height="24" />
-    <icon src="www/res/icons/windows/BadgeLogo.scale-100.png"          platform="winphone" width="58" height="58" />
-    
+    <platform name="winphone">
+      <icon src="www/res/icons/windows/Square71x71Logo.scale-100.png" width="71" height="71" />
+      <icon src="www/res/icons/windows/Square71x71Logo.scale-240.png" width="170" height="170" />
+      <icon src="www/res/icons/windows/Square150x150Logo.scale-100.png" width="150" height="150" />
+      <icon src="www/res/icons/windows/Square150x150Logo.scale-240.png" width="360" height="360" />
+      <icon src="www/res/icons/windows/Square44x44Logo.scale-100.png" width="44" height="44" />
+      <icon src="www/res/icons/windows/Square44x44Logo.scale-240.png" width="106" height="106" />
+      <icon src="www/res/icons/windows/StoreLogo.scale-100.png" width="70" height="70" />
+      <icon src="www/res/icons/windows/StoreLogo.scale-240.png" width="120" height="120" />
+      <icon src="www/res/icons/windows/Wide310x150Logo.scale-100.png" width="310" height="150" />
+      <icon src="www/res/icons/windows/Wide310x150Logo.scale-240.png" width="744" height="360" />
+      <icon src="www/res/icons/windows/BadgeLogo.scale-100.png" width="24" height="24" />
+      <icon src="www/res/icons/windows/BadgeLogo.scale-100.png" width="58" height="58" />
+    </platform>
 
     <!-- Define app splash screen for each platform. -->
-    <splash src="www/res/screen/android/drawable-land-ldpi-screen.png"    platform="android" qualifier="land-ldpi"/>
-    <splash src="www/res/screen/android/drawable-land-mdpi-screen.png"    platform="android" qualifier="land-mdpi"/>
-    <splash src="www/res/screen/android/drawable-land-hdpi-screen.png"    platform="android" qualifier="land-hdpi"/>
-    <splash src="www/res/screen/android/drawable-land-xhdpi-screen.png"   platform="android" qualifier="land-xhdpi"/>
-    <splash src="www/res/screen/android/drawable-land-xxhdpi-screen.png"  platform="android" qualifier="land-xxhdpi"/>
-    <splash src="www/res/screen/android/drawable-land-xxxhdpi-screen.png" platform="android" qualifier="land-xxxhdpi"/>
-    <splash src="www/res/screen/android/drawable-port-ldpi-screen.png"    platform="android" qualifier="port-ldpi"/>
-    <splash src="www/res/screen/android/drawable-port-mdpi-screen.png"    platform="android" qualifier="port-mdpi"/>
-    <splash src="www/res/screen/android/drawable-port-hdpi-screen.png"    platform="android" qualifier="port-hdpi"/>
-    <splash src="www/res/screen/android/drawable-port-xhdpi-screen.png"   platform="android" qualifier="port-xhdpi"/>
-    <splash src="www/res/screen/android/drawable-port-xxhdpi-screen.png"  platform="android" qualifier="port-xxhdpi"/>
-    <splash src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" platform="android" qualifier="port-xxxhdpi"/>
-    
-    <splash src="www/res/screen/ios/Default-568h@2x~iphone.png"           platform="ios" width="640" height="1136"/>
-    <splash src="www/res/screen/ios/Default-667h.png"                     platform="ios" width="750" height="1334"/>
-    <splash src="www/res/screen/ios/Default-736h.png"                     platform="ios" width="1242" height="2208"/>
-    <splash src="www/res/screen/ios/Default-Landscape-736h.png"           platform="ios" width="2208" height="1242"/>
-    <splash src="www/res/screen/ios/Default-Landscape@2x~ipad.png"        platform="ios" width="2048" height="1536"/>
-    <splash src="www/res/screen/ios/Default-Landscape~ipad.png"           platform="ios" width="1024" height="768"/>
-    <splash src="www/res/screen/ios/Default-Portrait@2x~ipad.png"         platform="ios" width="1536" height="2048"/>
-    <splash src="www/res/screen/ios/Default-Portrait~ipad.png"            platform="ios" width="768" height="1024"/>
-    <splash src="www/res/screen/ios/Default@2x~iphone.png"                platform="ios" width="640" height="960"/>
-    <splash src="www/res/screen/ios/Default~iphone.png"                   platform="ios" width="320" height="480"/>
+    <platform name="android">
+      <splash src="www/res/screen/android/drawable-land-ldpi-screen.png" qualifier="land-ldpi" />
+      <splash src="www/res/screen/android/drawable-land-mdpi-screen.png" qualifier="land-mdpi" />
+      <splash src="www/res/screen/android/drawable-land-hdpi-screen.png" qualifier="land-hdpi" />
+      <splash src="www/res/screen/android/drawable-land-xhdpi-screen.png" qualifier="land-xhdpi" />
+      <splash src="www/res/screen/android/drawable-land-xxhdpi-screen.png" qualifier="land-xxhdpi" />
+      <splash src="www/res/screen/android/drawable-land-xxxhdpi-screen.png" qualifier="land-xxxhdpi" />
+      <splash src="www/res/screen/android/drawable-port-ldpi-screen.png" qualifier="port-ldpi" />
+      <splash src="www/res/screen/android/drawable-port-mdpi-screen.png" qualifier="port-mdpi" />
+      <splash src="www/res/screen/android/drawable-port-hdpi-screen.png" qualifier="port-hdpi" />
+      <splash src="www/res/screen/android/drawable-port-xhdpi-screen.png" qualifier="port-xhdpi" />
+      <splash src="www/res/screen/android/drawable-port-xxhdpi-screen.png" qualifier="port-xxhdpi" />
+      <splash src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" qualifier="port-xxxhdpi" />
+    </platform>
+
+    <platform name="ios">
+      <splash src="www/res/screen/ios/Default-568h@2x~iphone.png" width="640" height="1136" />
+      <splash src="www/res/screen/ios/Default-667h.png" width="750" height="1334" />
+      <splash src="www/res/screen/ios/Default-736h.png" width="1242" height="2208" />
+      <splash src="www/res/screen/ios/Default-Landscape-736h.png" width="2208" height="1242" />
+      <splash src="www/res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" height="1536" />
+      <splash src="www/res/screen/ios/Default-Landscape~ipad.png" width="1024" height="768" />
+      <splash src="www/res/screen/ios/Default-Portrait@2x~ipad.png" width="1536" height="2048" />
+      <splash src="www/res/screen/ios/Default-Portrait~ipad.png" width="768" height="1024" />
+      <splash src="www/res/screen/ios/Default@2x~iphone.png" width="640" height="960" />
+      <splash src="www/res/screen/ios/Default~iphone.png" width="320" height="480" />
+    </platform>
     
     <!--Windows Phone 8-->
-    <splash src="www/res/screen/windows-phone/screen-portrait.jpg"                platform="winphone" />
-    
+    <platform name="win8">
+      <splash src="www/res/screen/windows-phone/screen-portrait.jpg" />
+    </platform>
     <!--Windows Phone 8.1+-->
-    <splash src="www/res/screen/windows-phone/SplashScreenPhone.scale-100.png"    platform="winphone" width="480" height="800" />
-    <splash src="www/res/screen/windows-phone/SplashScreenPhone.scale-140.png"    platform="winphone" width="672" height="1120" />
-    <splash src="www/res/screen/windows-phone/SplashScreenPhone.scale-240.png"    platform="winphone" width="1152" height="1920" />
-    
+    <platform name="winphone">
+      <splash src="www/res/screen/windows-phone/SplashScreenPhone.scale-100.png" width="480" height="800" />
+      <splash src="www/res/screen/windows-phone/SplashScreenPhone.scale-140.png" width="672" height="1120" />
+      <splash src="www/res/screen/windows-phone/SplashScreenPhone.scale-240.png" width="1152" height="1920" />
+    </platform>
     <!--
         Define access to external domains.
 
@@ -137,17 +152,17 @@
 
         Otherwise, you can specify specific domains:
     -->
-    <access origin="*"/>
+    <access origin="*" />
     <!--
        <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
        <access origin="http://phonegap.com" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
        <access origin="http://phonegap.com" browserOnly="true" /> - only allows http://phonegap.com to be opened by the child browser.
     -->
-    
+
     <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
     <!-- Whitelist configuration. Refer to https://cordova.apache.org/docs/en/edge/guide_appdev_whitelist_index.md.html -->
     <plugin name="cordova-plugin-whitelist" version="1" />
-    
+
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -155,11 +170,11 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <platform name="android">
-        <allow-intent href="market:*" />
+      <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
+      <allow-intent href="itms:*" />
+      <allow-intent href="itms-apps:*" />
     </platform>
 
-</widget>
+  </widget>
