@@ -56,12 +56,12 @@
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
     <platform name="android">
-      <icon src="www/res/icon/android/drawable-ldpi-icon" qualifier="ldpi" />
+      <icon src="www/res/icon/android/drawable-ldpi-icon.png" qualifier="ldpi" />
       <icon src="www/res/icon/android/drawable-mdpi-icon.png" qualifier="mdpi" />
-      <icon src="www/res/icon/android/drawable-hdpi-icon" qualifier="hdpi" />
+      <icon src="www/res/icon/android/drawable-hdpi-icon.png" qualifier="hdpi" />
       <icon src="www/res/icon/android/drawable-xhdpi-icon.png" qualifier="xhdpi" />
       <icon src="www/res/icon/android/drawable-xxhdpi-icon.png" qualifier="xxhdpi" />
-      <icon src="www/res/icon/android/drawable-xhdpi-icon.png" qualifier="xxxhdpi" />
+      <icon src="www/res/icon/android/drawable-xxxhdpi-icon.png" qualifier="xxxhdpi" />
     </platform>
 
     <platform name="ios">
