@@ -102,28 +102,37 @@
     </platform>
 
     <platform name="wp8">
-        <!--<icon   src="res/wp/ApplicationIcon.png"                  width="99"  height="99" />-->
-        <!--<icon   src="res/wp/Background.png"                       width="159" height="159" />-->
-        <!--<splash src="res/screen/windows/screen-portrait.jpg"      platform="wp8" />-->
+        <icon   src="res/icon/wp8/ApplicationIcon.png"   platform="wp8" width="99"  height="99" />
+        <icon   src="res/icon/wp8/Background.png"        platform="wp8" width="159" height="159" />
+        <splash src="res/screen/wp8/screen-portrait.jpg" platform="wp8" width="768" height="1280" />
     </platform>
 
     <platform name="windows">
-        <icon src="res/icon/windows/Square150x150Logo.scale-100.png"   platform="windows" width="150"  height="150" />
-        <icon src="res/icon/windows/Square30x30Logo.scale-100.png"     platform="windows" width="30"   height="30" />
-        <icon src="res/icon/windows/StoreLogo.scale-100.png"           platform="windows" width="50"   height="50" />
-        <splash src="res/screen/windows/SplashScreen.scale-100.png"    platform="windows" width="620"  height="300" />
+        <!-- For Windows the recommended approach to define app icons is to use target attribute -->
+        <!-- <icon src="res/icon/windows/StoreLogo.png"         target="StoreLogo" /> -->
+        <!-- <icon src="res/icon/windows/Square30x30Logo.png"   target="Square30x30Logo" /> -->
+        <!-- <icon src="res/icon/windows/Square44x44Logo.png"   target="Square44x44Logo" /> -->
+        <!-- <icon src="res/icon/windows/Square70x70Logo.png"   target="Square70x70Logo" /> -->
+        <!-- <icon src="res/icon/windows/Square71x71Logo.png"   target="Square71x71Logo" /> -->
+        <!-- <icon src="res/icon/windows/Square150x150Logo.png" target="Square150x150Logo" /> -->
+        <!-- <icon src="res/icon/windows/Square310x310Logo.png" target="Square310x310Logo" /> -->
+        <!-- <icon src="res/icon/windows/Wide310x150Logo.png"   target="Wide310x150Logo" /> -->
+        <icon src="res/icon/windows/Square150x150Logo.scale-100.png"     platform="windows"   width="150"  height="150" />
+        <icon src="res/icon/windows/Square30x30Logo.scale-100.png"       platform="windows"   width="30"   height="30" />
+        <icon src="res/icon/windows/StoreLogo.scale-100.png"             platform="windows"   width="50"   height="50" />
+        <splash src="res/screen/windows/SplashScreen.scale-100.png"      platform="windows"   width="620"  height="300" />
         <!-- scaled images are specified here for backward compatibility only so we can find them by size -->
-        <icon   src="res/icon/windows/StoreLogo.scale-240.png"         platform="windows" width="120"  height="120" />
-        <icon   src="res/icon/windows/Square44x44Logo.scale-100.png"   platform="windows" width="44"   height="44" />
-        <icon   src="res/icon/windows/Square44x44Logo.scale-240.png"   platform="windows" width="106"  height="106" />
-        <icon   src="res/icon/windows/Square70x70Logo.scale-100.png"   platform="windows" width="70"   height="70" />
-        <icon   src="res/icon/windows/Square71x71Logo.scale-100.png"   platform="windows" width="71"   height="71" />
-        <icon   src="res/icon/windows/Square71x71Logo.scale-240.png"   platform="windows" width="170"  height="170" />
-        <icon   src="res/icon/windows/Square150x150Logo.scale-240.png" platform="windows" width="360"  height="360" />
-        <icon   src="res/icon/windows/Square310x310Logo.scale-100.png" platform="windows" width="310"  height="310" />
-        <icon   src="res/icon/windows/Wide310x150Logo.scale-100.png"   platform="windows" width="310"  height="150" />
-        <icon   src="res/icon/windows/Wide310x150Logo.scale-240.png"   platform="windows" width="744"  height="360" />
-        <splash src="res/screen/windows/SplashScreenPhone.scale-240.png" platform="windows" width="1152" height="1920" />
+        <icon   src="res/icon/windows/StoreLogo.scale-240.png"           platform="windows"   width="120"  height="120" />
+        <icon   src="res/icon/windows/Square44x44Logo.scale-100.png"     platform="windows"   width="44"   height="44" />
+        <icon   src="res/icon/windows/Square44x44Logo.scale-240.png"     platform="windows"   width="106"  height="106" />
+        <icon   src="res/icon/windows/Square70x70Logo.scale-100.png"     platform="windows"   width="70"   height="70" />
+        <icon   src="res/icon/windows/Square71x71Logo.scale-100.png"     platform="windows"   width="71"   height="71" />
+        <icon   src="res/icon/windows/Square71x71Logo.scale-240.png"     platform="windows"   width="170"  height="170" />
+        <icon   src="res/icon/windows/Square150x150Logo.scale-240.png"   platform="windows"   width="360"  height="360" />
+        <icon   src="res/icon/windows/Square310x310Logo.scale-100.png"   platform="windows"   width="310"  height="310" />
+        <icon   src="res/icon/windows/Wide310x150Logo.scale-100.png"     platform="windows"   width="310"  height="150" />
+        <icon   src="res/icon/windows/Wide310x150Logo.scale-240.png"     platform="windows"   width="744"  height="360" />
+        <splash src="res/screen/windows/SplashScreenPhone.scale-240.png" platform="windows"   width="1152" height="1920" />
     </platform>
 
     <!--
