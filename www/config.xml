@@ -6,10 +6,10 @@
         id        = "com.phonegap.helloworld"
         version   = "1.0.0">
 
-    <name>UAM Time Table</name>
+    <name>MASCE 15: Battle of UAM</name>
 
     <description>
-       To add students creat and edit time tables on the go..
+       Game of Mathematics, Statistics, Computer Science and Education Students of the University of Agriculuture Makurdi, SET 2014/2015.
     </description>
 
     <author href="http://sztglobal.com" email="stivino1224@gmail.com">
