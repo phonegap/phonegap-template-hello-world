@@ -6,6 +6,13 @@
     "type": "git",
     "url": "https://github.com/phonegap/phonegap-app-hello-world.git"
   },
+  "devDependencies": {
+    "semistandard": "^8.0.0",
+    "snazzy": "^4.0.0"
+  },
+  "scripts": {
+    "test": "semistandard www/**/*.js | snazzy"
+  },
   "author": "PhoneGap Team",
   "license": "Apache-2.0.0",
   "keywords": [
