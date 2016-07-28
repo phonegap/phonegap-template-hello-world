@@ -3,14 +3,105 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.helloworld"
+        id        = "com.alsals"
         version   = "1.0.0">
 
-    <name>Hello World</name>
+    <name>alsals</name>
 
-    <description>
-        Hello World sample application that responds to the deviceready event.
-    </description>
+    <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+  <div data-role="panel" id="myPanel" data-position="right"> 
+    <h2>همسریاب</h2>
+    <p></p>
+
+    
+    <a href="#" class="ui-btn ui-icon-search ui-btn-icon-top">بالا</a>  
+    <a href="#" class="ui-btn ui-icon-search ui-btn-icon-top">بالا</a>  
+    <a href="#" class="ui-btn ui-icon-search ui-btn-icon-top">بالا</a>
+    <a href="#" class="ui-btn ui-icon-search ui-btn-icon-top">بالا</a>  
+    <a href="#" class="ui-btn ui-icon-search ui-btn-icon-top">بالا</a>  
+    <a href="#" class="ui-btn ui-icon-search ui-btn-icon-top">بالا</a>
+    
+
+
+
+    <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left"></a>
+  </div> 
+
+
+
+
+  <div data-role="header">
+    <h1>همسریاب</h1>
+     <a href="#myPanel" class="ui-btn ui-corner-all ui-shadow ui-icon- ui-btn-icon-right"></a>
+    
+    <a href="#myPanel" class="ui-btn ui-corner-all ui-shadow ui-icon-search ui-btn-icon-right"></a>
+   </div> 
+    <div data-role="main" class="ui-content">
+    <div data-role="controlgroup" data-type="horizontal">
+     <p></p>
+
+
+
+
+      <a href="#" class="ui-btn ui-icon-search ui-btn-icon-top">بالا</a>
+      <a href="#" class="ui-btn ui-icon-search ui-btn-icon-top">بالا</a>
+      <a href="#" class="ui-btn ui-icon-search ui-btn-icon-top">بالا</a>
+      <div data-role="main" class="ui-content">
+    <p></p>
+    </div>
+  </div>
+
+
+
+     <div data-role="main" class="ui-content">
+    <div data-role="controlgroup" data-type="horizontal">
+      <p></p>
+      <a href="#" class="ui-btn ui-icon-search ui-btn-icon-top">بالا</a>
+      <a href="#" class="ui-btn ui-icon-search ui-btn-icon-top">بالا</a>
+      <a href="#" class="ui-btn ui-icon-search ui-btn-icon-top">بالا</a>
+      <div data-role="main" class="ui-content">
+    <p></p>
+    </div>
+  </div> 
+     
+
+     
+      <div data-role="main" class="ui-content">
+    <div data-role="controlgroup" data-type="horizontal">
+      <p></p>
+      <a href="#" class="ui-btn ui-icon-search ui-btn-icon-top">بالا</a>
+      <a href="#" class="ui-btn ui-icon-search ui-btn-icon-top">بالا</a>
+      <a href="#" class="ui-btn ui-icon-search ui-btn-icon-top">بالا</a>
+      <div data-role="main" class="ui-content">
+    <p></p>
+    </div>
+  </div>  
+
+
+
+
+
+ 
+  
+  
+  
+    
+  
+</div> 
+
+</body>
+</html>
+              
 
     <author href="http://phonegap.com" email="support@phonegap.com">
         PhoneGap Team
