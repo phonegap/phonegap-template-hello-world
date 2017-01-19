@@ -6,10 +6,10 @@
         id        = "com.phonegap.helloworld"
         version   = "1.0.0">
 
-    <name>MASCE 15: Battle of UAM</name>
+    <name>Centenary Kiddies World</name>
 
     <description>
-       Game of Mathematics, Statistics, Computer Science and Education Students of the University of Agriculuture Makurdi, SET 2014/2015.
+      We have all that the Child needs to be goood
     </description>
 
     <author href="http://sztglobal.com" email="stivino1224@gmail.com">
@@ -33,8 +33,7 @@
     <plugin name="cordova-plugin-camera"              source="npm" spec="~2.1.1" />
     <plugin name="cordova-plugin-media-capture"       source="npm" spec="~1.2.0" />
     <plugin name="cordova-plugin-console"             source="npm" spec="~1.0.2" />
-    <plugin name="cordova-plugin-sms" source="npm" />
-    
+
     <plugin name="cordova-plugin-contacts"            source="npm" spec="~2.0.1" />
     <plugin name="cordova-plugin-device"              source="npm" spec="~1.1.1" />
     <plugin name="cordova-plugin-device-motion"       source="npm" spec="~1.2.0" />
@@ -162,6 +161,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+     <allow-ntent href="ftp:*" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
