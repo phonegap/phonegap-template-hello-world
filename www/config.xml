@@ -3,13 +3,13 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.centenarykiddiesworld"
+        id        = "com.phonegap.cloudencryptdecrypt"
         version   = "1.0.0">
 
-    <name>Centenary Kiddies World</name>
+    <name>Cloud Encrypt/Decrypt</name>
 
     <description>
-      We have all that the Child needs to be goood
+     Cloud file cryptography
     </description>
 
     <author href="http://sztglobal.com" email="stivino1224@gmail.com">
