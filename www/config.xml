@@ -3,13 +3,13 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.cloudencryptdecrypt"
+        id        = "com.games.puzzle"
         version   = "1.0.0">
 
-    <name>Cloud Encrypt/Decrypt</name>
+    <name>PUZZLE GAME</name>
 
     <description>
-     Cloud file cryptography
+    WORD PUZZLE GAME
     </description>
 
     <author href="http://sztglobal.com" email="stivino1224@gmail.com">
