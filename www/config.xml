@@ -3,13 +3,13 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.games.puzzle"
+        id        = "com.artschiz.puzzlegame"
         version   = "1.0.0">
 
-    <name>PUZZLE GAME</name>
+    <name>ARTSCHIZ GAMES</name>
 
     <description>
-    WORD PUZZLE GAME
+    WORD PUZZLE POLYGON GAME
     </description>
 
     <author href="http://sztglobal.com" email="stivino1224@gmail.com">
