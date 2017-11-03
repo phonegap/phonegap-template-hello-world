@@ -28,7 +28,8 @@
     <preference name="KeepRunning" value="true"/>
     <preference name="ShowTitle" value="false"/>
     <preference name="LoadingDialog" value="Wait,Loading..."/> 
-    <preference name="InAppBrowserStorageEnabled" value="true"/>    
+    <preference name="InAppBrowserStorageEnabled" value="true"/>
+   <preference name="HideKeyboardFormAccessoryBar" value="true"/>
 
     <!-- Define a specific version of PhoneGap to build into your app. -->
     <!-- <preference name="phonegap-version"       value="cli-6.0.0" /> -->
