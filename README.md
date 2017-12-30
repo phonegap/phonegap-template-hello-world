@@ -20,14 +20,6 @@ To see a list of other available PhoneGap templates:
 
 ## [config.xml][config-xml]
 
-#### android-minSdkVersion (Android only)
-
-Minimum SDK version supported on the target device. Maximum version is blank by default.
-
-This template sets the minimum to `14`.
-
-    <preference name="android-minSdkVersion" value="14" />
-
 #### &lt;access ...&gt; (All)
 
 This template defaults to wide open access.
