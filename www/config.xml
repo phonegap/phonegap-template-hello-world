@@ -67,7 +67,7 @@
         <icon background="res/icon/android/hdpi-background.png" density="hdpi" foreground="res/icon/android/hdpi-foreground.png" />
         <icon background="res/icon/android/xhdpi-background.png" density="xhdpi" foreground="res/icon/android/xhdpi-foreground.png" />
         <icon background="res/icon/android/xxhdpi-background.png" density="xxhdpi" foreground="res/icon/android/xxhdpi-foreground.png" />
-        <icon background="res/icon/android/xxxhdpi-background.png" density="xxxhdpi" foreground="res/icon/android/xxxhdpi-foreground.png" />    
+        <icon background="res/icon/android/xxxhdpi-background.png" density="xxxhdpi" foreground="res/icon/android/xxxhdpi-foreground.png" /> -->   
         <splash src="www/res/screen/android/drawable-land-ldpi-screen.png"      density="land-ldpi" />
         <splash src="www/res/screen/android/drawable-land-mdpi-screen.png"      density="land-mdpi" />
         <splash src="www/res/screen/android/drawable-land-hdpi-screen.png"      density="land-hdpi" />
@@ -79,7 +79,7 @@
         <splash src="www/res/screen/android/drawable-port-hdpi-screen.png"      density="port-hdpi" />
         <splash src="www/res/screen/android/drawable-port-xhdpi-screen.png"     density="port-xhdpi" />
         <splash src="www/res/screen/android/drawable-port-xxhdpi-screen.png"    density="port-xxhdpi" />
-        <splash src="www/res/screen/android/drawable-port-xxxhdpi-screen.png"   density="port-xxxhdpi" /> -->
+        <splash src="www/res/screen/android/drawable-port-xxxhdpi-screen.png"   density="port-xxxhdpi" />
     </platform>
 
     <platform name="ios">
