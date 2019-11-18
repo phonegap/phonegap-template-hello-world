@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<!-- config.xml reference: http://docs.phonegap.com/phonegap-build/configuring/ -->
+<!-- config.xml reference: https://cordova.apache.org/docs/en/latest/config_ref/ -->
 <widget xmlns                = "http://www.w3.org/ns/widgets"
         xmlns:gap            = "http://phonegap.com/ns/1.0"
         id                   = "com.phonegap.helloworld"
@@ -119,46 +120,11 @@
             
         <!-- iOS requirements permissions to access privacy-sensitive data -->
         <!-- Since iOS 10 it's mandatory to provide an usage description in the info.plist if trying to access privacy-sensitive data -->    
-            
-        <!-- [cordova-plugin-camera] & [cordova=plugin-media-capture] permissions -->   
-        <!-- NSCameraUsageDescription specifies the reason for your app to access the device's camera. -->    
+             
+        <!-- NSCameraUsageDescription specifies the reason for your app to access the device's camera.     
         <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
           <string>need camera access to take pictures</string>
-        </edit-config>
-            
-        <!-- NSPhotoLibraryUsageDescription specifies the reason for your app to access the user's photo library. -->    
-        <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
-          <string>need photo library access to get pictures from there</string>
-        </edit-config>
-            
-        <!-- [cordova-plugin-camera] -->
-        <!-- NSPhotoLibraryAddUsageDescription specifies the reason for your app to get write-only access to the user's photo library -->   
-        <edit-config target="NSPhotoLibraryAddUsageDescription" file="*-Info.plist" mode="merge">
-          <string>need photo library access to save pictures there</string>
-        </edit-config>
-            
-        <!-- [cordova-plugin-camera] & [cordova-plugin-geolocation] permissions -->
-        <!-- Specifies the reason for your app to access the user's location information while your app is in use. -->
-        <!-- (Also you can set it if you have CameraUsesGeolocation in preferences which set to true). -->    
-        <edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
-          <string>need location access to find things nearby</string>
-        </edit-config>
-            
-        <!-- [cordova-plugin-geolocation] permissions -->
-        <!-- specifies the reason for your app to access the user's location information while your app is in use. as [Always] -->    
-        <edit-config target="NSLocationAlwaysUsageDescription" file="*-Info.plist" mode="merge">
-          <string>Your current location will be used to find airports and hotels near you.</string>
-        </edit-config>
-        <!-- specifies the reason for your app to access the user's location information while your app is in use. as [Always] & [WhenInUse] -->    
-        <edit-config target="NSLocationAlwaysAndWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
-          <string>Your current location will be used to find airports and hotels near you.</string>
-        </edit-config>
-         
-        <!-- [cordova-plugin-media] & [cordova=plugin-media-capture] permissions -->
-        <!-- NSMicrophoneUsageDescription describes the reason that the app accesses the user's microphone. -->    
-        <edit-config target="NSMicrophoneUsageDescription" file="*-Info.plist" mode="merge">
-          <string>need microphone access to record sounds</string>
-        </edit-config>    
+        </edit-config>   -->
             
     </platform>  
 
