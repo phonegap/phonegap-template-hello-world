@@ -62,13 +62,16 @@
         <icon   src="www/res/icon/android/drawable-xhdpi-icon.png"              density="xhdpi" />
         <icon   src="www/res/icon/android/drawable-xxhdpi-icon.png"             density="xxhdpi" />
         <icon   src="www/res/icon/android/drawable-xxxhdpi-icon.png"            density="xxxhdpi" />
-        <!-- Android Adaptive Icons
+        <!-- Android Adaptive Icons -->    
+    <!-- 
+        
         <icon background="res/icon/android/ldpi-background.png" density="ldpi" foreground="res/icon/android/ldpi-foreground.png" />
         <icon background="res/icon/android/mdpi-background.png" density="mdpi" foreground="res/icon/android/mdpi-foreground.png" />
         <icon background="res/icon/android/hdpi-background.png" density="hdpi" foreground="res/icon/android/hdpi-foreground.png" />
         <icon background="res/icon/android/xhdpi-background.png" density="xhdpi" foreground="res/icon/android/xhdpi-foreground.png" />
         <icon background="res/icon/android/xxhdpi-background.png" density="xxhdpi" foreground="res/icon/android/xxhdpi-foreground.png" />
-        <icon background="res/icon/android/xxxhdpi-background.png" density="xxxhdpi" foreground="res/icon/android/xxxhdpi-foreground.png" /> -->   
+        <icon background="res/icon/android/xxxhdpi-background.png" density="xxxhdpi" foreground="res/icon/android/xxxhdpi-foreground.png" />
+    -->
         <splash src="www/res/screen/android/drawable-land-ldpi-screen.png"      density="land-ldpi" />
         <splash src="www/res/screen/android/drawable-land-mdpi-screen.png"      density="land-mdpi" />
         <splash src="www/res/screen/android/drawable-land-hdpi-screen.png"      density="land-hdpi" />
@@ -119,12 +122,14 @@
         <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />    
             
         <!-- iOS requirements permissions to access privacy-sensitive data -->
-        <!-- Since iOS 10 it's mandatory to provide an usage description in the info.plist if trying to access privacy-sensitive data -->    
-             
-        <!-- NSCameraUsageDescription specifies the reason for your app to access the device's camera.     
+        <!-- Since iOS 10 it's mandatory to provide an usage description in the info.plist if trying to access privacy-sensitive data -->
+            
+        <!-- NSCameraUsageDescription specifies the reason for your app to access the device's camera. -->     
+ <!--      
         <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
           <string>need camera access to take pictures</string>
-        </edit-config>   -->
+        </edit-config>
+ -->
             
     </platform>  
 
