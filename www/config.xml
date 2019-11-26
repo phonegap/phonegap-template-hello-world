@@ -7,7 +7,7 @@
         id                   = "com.phonegap.helloworld"
         version              = "1.0.0"
         android-versionCode  = "1000"
-        ios-CFBundleVersion  = "1">
+        ios-CFBundleVersion  = "1.0.0">
 
     <name>Hello World</name>
      
